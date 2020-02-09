@@ -1,0 +1,42 @@
+:root {
+  --salmon-color: #fa8072;
+  --darksalmon-color: #e9967a;
+  --black-color: #333;
+  --white-color: rgb(252, 252, 252);
+  --gray-color: #454545;
+}
+html,
+body {
+  font-family: "Mandali", sans-serif;
+}
+.salmon-color {
+  color: var(--salmon-color);
+}
+.text-shadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.dot {
+  position: relative;
+  bottom: 3px;
+  margin-right: 10px;
+  background-color: var(--salmon-color);
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.card {
+  height: 50vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffa07a,
+    var(--darksalmon-color)
+  );
+}
+
+footer {
+  background-color: var(--gray-color);
+}
+footer a {
+  color: var(--white-color);
+}
