@@ -1,6 +1,5 @@
 :root {
-  --salmon-color: #fa8072;
-  --darksalmon-color: #e9967a;
+  --primary-color: #f898a7;
   --black-color: #333;
   --white-color: rgb(252, 252, 252);
   --gray-color: #454545;
@@ -9,8 +8,8 @@ html,
 body {
   font-family: "Mandali", sans-serif;
 }
-.salmon-color {
-  color: var(--salmon-color);
+.primary-color {
+  color: var(--primary-color);
 }
 .text-shadow {
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
@@ -19,7 +18,7 @@ body {
   position: relative;
   bottom: 3px;
   margin-right: 10px;
-  background-color: var(--salmon-color);
+  background-color: var(--primary-color);
   display: inline-block;
   width: 6px;
   height: 6px;
@@ -27,11 +26,7 @@ body {
 }
 .card {
   height: 50vh;
-  background-image: linear-gradient(
-    to bottom,
-    #ffa07a,
-    var(--darksalmon-color)
-  );
+  background-color: var(--primary-color);
 }
 
 footer {
